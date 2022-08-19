@@ -18,7 +18,5 @@ function findprotein (tea) {
 }
 
 console.log(findNutritionFact(tea))
-
-
 console.log(findprotein(tea))
 
