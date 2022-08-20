@@ -26,3 +26,32 @@ function passwordProtection(password) {
 }
 
 console.log(passwordProtection(password))
+
+
+//protect the interal quote with \
+let sentenceWithQuote = "But the other day you said \"we are going to the zoo\"" ;
+console.log(sentenceWithQuote);
+
+//check to see how long a string is
+let dictionary = "dictionary"
+console.log(dictionary.length)
+
+//concatination
+
+let adjective = "fast"
+let verb = "running"
+
+console.log("the dogs were " + verb + " " + adjective)
+
+let statment = verb.concat(" ", adjective)
+
+console.log(statment)
+
+//find the first letter in a string
+console.log(dictionary[0])
+//uppercase the first letter of a word
+console.log(dictionary[0].toUpperCase() + dictionary.substring(1))
+//finding the last character in a string
+console.log(dictionary[dictionary.length -1])
+//find the second to last character in the string
+console.log(dictionary[dictionary.length -2])
