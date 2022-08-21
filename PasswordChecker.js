@@ -6,3 +6,4 @@ the Password must have at least one number
 the Password cannot have spaces
 the Password must not contain first Name, Last Name or emaill Address
  */
+
