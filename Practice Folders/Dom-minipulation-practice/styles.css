@@ -2,3 +2,15 @@ body {
     width:100%;
     height:100%;
 }
+
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid 2px black;
+}
+
+nav a {
+    margin: 5px;
+    font-size: 20px;
+}
