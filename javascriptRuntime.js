@@ -14,3 +14,15 @@ const answer = sumIntegers(N); // Call the function
 const end = process.hrtime.bigint(); // Note the end time
 
 console.log(`Summing ${N} numbers took ${end - start} nanoseconds`);
+
+function addSum(n){
+
+    let sum = 0;
+    for (let index = 1; index < n; index++) {
+        sum+=
+        console.log(`step: ${index}`)
+    }
+
+}
+
+addSum(7)
