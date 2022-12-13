@@ -30,3 +30,6 @@ function giveMeFive(obj){
   */
 
   //codewars.com :https://www.codewars.com/kata/5722b3f0bd5583cf44001000/train/javascript
+
+
+  
