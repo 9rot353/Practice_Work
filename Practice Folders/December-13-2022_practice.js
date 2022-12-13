@@ -25,3 +25,5 @@ if arr[i] = "Hello Kitty" or "Barbie doll" add it to the bag.
 else arr != "Hello Kitty" or Barbie doll continue.
 if bag.length > 3 break.
 */
+
+/*CodeWars :https://www.codewars.com/kata/5721c189cdd71194c1000b9b/train/javascript
