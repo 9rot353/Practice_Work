@@ -1,0 +1,43 @@
+function colorOf(r,g,b) {
+let indexfirst = r.toString(16)
+let indexSecond = g.toString(16)
+let indexThird = b.toString(16)
+let hash = "#";
+
+return hash + indexfirst + indexSecond + indexThird
+const starterArray= [r,g,b]
+
+let finalArray = []
+
+
+
+for (let i = 0; i < colorOf.length; i++){
+let push = starterArray[i].toString(16)
+finalArray.push(push)
+}
+
+
+for (let el in finalArray) {
+    if (finalArray[el].length < 2){
+        finalArray[el] += "0"; 
+    }
+    
+}
+
+
+
+return hash + finalArray.join('');
+}
+
+
+let sting = "hello"
+sting.length = 2
+console.log(colorOf(0,111,0), sting);
+
+
+/* create a for loop that using the toString() method on all arguments
+store those results in an array. 
+join that array to a single string. 
+add a # to the begining of it
+return final result.
+*/
